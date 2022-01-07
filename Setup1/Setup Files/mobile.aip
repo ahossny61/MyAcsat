@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="16.6" version="16.6" Modules="simple" RootPath="." Language="en" Id="{DBB9B215-F6EC-4745-9AA7-531A786CB3A0}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;DigCertStoreComponent;MsiAssemblyComponent;MsiClassComponent;MsiServInstComponent;MsiExtComponent;TilesComponent;MsiOrgComponent;FixupComponent;MsiThemeComponent;BackgroundImagesComponent;UpdaterComponent;SerValComponent;MsiInstExSeqComponent;DictionaryComponent;MsiAppSearchComponent;MsiOdbcDataSrcComponent;CPLAppletComponent;ActSyncAppComponent;PreReqComponent;WebApplicationsComponent;MsiJavaComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;ActSyncAppComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPPRODUCTICON" Value="Mobile.exe" Type="8"/>
+    <ROW Property="Manufacturer" Value="ahossny61_it_solution"/>
+    <ROW Property="ProductCode" Value="1033:{30F47EEC-041E-428B-98FC-8B50EB3E2CCD} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="mobile"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{996A8E56-8C93-4AC5-AEAC-BFFB1100DFCC}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="APPDIR" ComponentId="{A8BC4FC1-E804-4808-A2EF-C003893A068C}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="Microsoft.CSharp.dll" ComponentId="{51E22A56-4655-4FFC-9E44-EFB5146A7C9D}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.CSharp.dll"/>
+    <ROW Component="MySql.Data.dll" ComponentId="{823191A7-932B-47E8-AF9F-0F3E7411E11D}" Directory_="APPDIR" Attributes="0" KeyPath="MySql.Data.dll"/>
+    <ROW Component="MySqlBackup.dll" ComponentId="{D3555426-47E9-40FE-BEBF-75E928B89089}" Directory_="APPDIR" Attributes="0" KeyPath="MySqlBackup.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{CF0BCDE7-1AFB-4FAD-B1B7-615A576C1C22}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{621F4234-B126-412E-8468-5326C7A865C3}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="System.Core.dll" ComponentId="{A40F65BC-B53B-465D-93BC-66BB88E9D663}" Directory_="APPDIR" Attributes="0" KeyPath="System.Core.dll"/>
+    <ROW Component="System.Data.DataSetExtensions.dll" ComponentId="{4D5D02F1-F14C-432C-8200-02B568205C49}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.DataSetExtensions.dll"/>
+    <ROW Component="System.Data.dll" ComponentId="{1B638E6A-D55B-4B10-AF97-70E6E8A51707}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.dll"/>
+    <ROW Component="System.Deployment.dll" ComponentId="{48C9198D-6FFB-4249-8C97-97ED081508D6}" Directory_="APPDIR" Attributes="0" KeyPath="System.Deployment.dll"/>
+    <ROW Component="System.Drawing.dll" ComponentId="{2BD6C98F-BDF8-4252-83B9-F58B3242200C}" Directory_="APPDIR" Attributes="0" KeyPath="System.Drawing.dll"/>
+    <ROW Component="System.Management.dll" ComponentId="{2EED65D7-52CB-4BA4-9285-46C4E3D5C3FE}" Directory_="APPDIR" Attributes="0" KeyPath="System.Management.dll"/>
+    <ROW Component="System.Net.Http.dll" ComponentId="{09B27F6A-D234-47BB-8E82-D028E665DF66}" Directory_="APPDIR" Attributes="0" KeyPath="System.Net.Http.dll"/>
+    <ROW Component="System.Windows.Forms.dll" ComponentId="{BD1F55FF-AEFC-4EB5-B5D9-56DBF173318A}" Directory_="APPDIR" Attributes="0" KeyPath="System.Windows.Forms.dll"/>
+    <ROW Component="System.Xml.Linq.dll" ComponentId="{DFB68DFE-D59D-4C0E-A3F2-B62DFA9059EB}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.Linq.dll"/>
+    <ROW Component="System.Xml.dll" ComponentId="{DAA60030-36EC-4D00-A4F7-12B1485C38A9}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.dll"/>
+    <ROW Component="System.dll" ComponentId="{479860F4-F2E1-42E3-8992-F554821589F6}" Directory_="APPDIR" Attributes="0" KeyPath="System.dll"/>
+    <ROW Component="mobile.exe" ComponentId="{9ACE34AB-526B-46E9-8F85-DDD5C4A40C93}" Directory_="APPDIR" Attributes="0" KeyPath="mobile.exe"/>
+    <ROW Component="mobile.exe.config" ComponentId="{0673E638-AC95-4685-B64B-836B3878FAEC}" Directory_="APPDIR" Attributes="0" KeyPath="mobile.exe.config" Type="0"/>
+    <ROW Component="mscorlib.dll" ComponentId="{77DF9C0D-2E07-4298-B82E-87A5D6D1F64D}" Directory_="APPDIR" Attributes="0" KeyPath="mscorlib.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="mobile.exe" Component_="mobile.exe" FileName="mobile.exe" Attributes="0" SourcePath="..\..\mobile\bin\Debug\mobile.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="System.Core.dll" Component_="System.Core.dll" FileName="SYSTEM~1.DLL|System.Core.dll" Attributes="0" SourcePath="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll" SelfReg="false"/>
+    <ROW File="mobile.exe.config" Component_="mobile.exe.config" FileName="MOBILE~1.CON|mobile.exe.config" Attributes="0" SourcePath="..\..\mobile\bin\Debug\mobile.exe.config" SelfReg="false"/>
+    <ROW File="Microsoft.CSharp.dll" Component_="Microsoft.CSharp.dll" FileName="MICROS~1.DLL|Microsoft.CSharp.dll" Attributes="0" SourcePath="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Microsoft.CSharp.dll" SelfReg="false"/>
+    <ROW File="MySql.Data.dll" Component_="MySql.Data.dll" FileName="MYSQLD~1.DLL|MySql.Data.dll" Attributes="0" SourcePath="..\..\mobile\bin\Debug\MySql.Data.dll" SelfReg="false"/>
+    <ROW File="MySqlBackup.dll" Component_="MySqlBackup.dll" FileName="MYSQLB~1.DLL|MySqlBackup.dll" Attributes="0" SourcePath="..\..\mobile\bin\Debug\MySqlBackup.dll" SelfReg="false"/>
+    <ROW File="mscorlib.dll" Component_="mscorlib.dll" FileName="mscorlib.dll" Attributes="0" SourcePath="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" SelfReg="false"/>
+    <ROW File="System.dll" Component_="System.dll" FileName="System.dll" Attributes="0" SourcePath="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" SelfReg="false"/>
+    <ROW File="System.Data.DataSetExtensions.dll" Component_="System.Data.DataSetExtensions.dll" FileName="SYSTEM~2.DLL|System.Data.DataSetExtensions.dll" Attributes="0" SourcePath="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.DataSetExtensions.dll" SelfReg="false"/>
+    <ROW File="System.Data.dll" Component_="System.Data.dll" FileName="SYSTEM~3.DLL|System.Data.dll" Attributes="0" SourcePath="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" SelfReg="false"/>
+    <ROW File="System.Deployment.dll" Component_="System.Deployment.dll" FileName="SYSTEM~4.DLL|System.Deployment.dll" Attributes="0" SourcePath="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Deployment.dll" SelfReg="false"/>
+    <ROW File="System.Drawing.dll" Component_="System.Drawing.dll" FileName="SYSTEM~5.DLL|System.Drawing.dll" Attributes="0" SourcePath="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" SelfReg="false"/>
+    <ROW File="System.Management.dll" Component_="System.Management.dll" FileName="SYSTEM~6.DLL|System.Management.dll" Attributes="0" SourcePath="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Management.dll" SelfReg="false"/>
+    <ROW File="System.Net.Http.dll" Component_="System.Net.Http.dll" FileName="SYSTEM~7.DLL|System.Net.Http.dll" Attributes="0" SourcePath="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Net.Http.dll" SelfReg="false"/>
+    <ROW File="System.Windows.Forms.dll" Component_="System.Windows.Forms.dll" FileName="SYSTEM~8.DLL|System.Windows.Forms.dll" Attributes="0" SourcePath="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" SelfReg="false"/>
+    <ROW File="System.Xml.dll" Component_="System.Xml.dll" FileName="SYSTEM~9.DLL|System.Xml.dll" Attributes="0" SourcePath="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" SelfReg="false"/>
+    <ROW File="System.Xml.Linq.dll" Component_="System.Xml.Linq.dll" FileName="SYSTE~10.DLL|System.Xml.Linq.dll" Attributes="0" SourcePath="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.Linq.dll" SelfReg="false"/>
+    <ROW File="l.jpeg" Component_="mobile.exe.config" FileName="L~1.JPE|l.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l.jpeg" SelfReg="false"/>
+    <ROW File="l1.jpeg" Component_="mobile.exe.config" FileName="L1~1.JPE|l1.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l1.jpeg" SelfReg="false"/>
+    <ROW File="l2.jpeg" Component_="mobile.exe.config" FileName="L2~1.JPE|l2.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l2.jpeg" SelfReg="false"/>
+    <ROW File="l3.jpeg" Component_="mobile.exe.config" FileName="L3~1.JPE|l3.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l3.jpeg" SelfReg="false"/>
+    <ROW File="l4.jpeg" Component_="mobile.exe.config" FileName="L4~1.JPE|l4.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l4.jpeg" SelfReg="false"/>
+    <ROW File="l5.jpeg" Component_="mobile.exe.config" FileName="L5~1.JPE|l5.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l5.jpeg" SelfReg="false"/>
+    <ROW File="l6.jpeg" Component_="mobile.exe.config" FileName="L6~1.JPE|l6.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l6.jpeg" SelfReg="false"/>
+    <ROW File="l7.jpeg" Component_="mobile.exe.config" FileName="L7~1.JPE|l7.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l7.jpeg" SelfReg="false"/>
+    <ROW File="l8.jpeg" Component_="mobile.exe.config" FileName="L8~1.JPE|l8.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l8.jpeg" SelfReg="false"/>
+    <ROW File="l9.jpeg" Component_="mobile.exe.config" FileName="L9~1.JPE|l9.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l9.jpeg" SelfReg="false"/>
+    <ROW File="l10.jpeg" Component_="mobile.exe.config" FileName="L10~1.JPE|l10.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l10.jpeg" SelfReg="false"/>
+    <ROW File="l11.jpeg" Component_="mobile.exe.config" FileName="L11~1.JPE|l11.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l11.jpeg" SelfReg="false"/>
+    <ROW File="l12.jpeg" Component_="mobile.exe.config" FileName="L12~1.JPE|l12.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l12.jpeg" SelfReg="false"/>
+    <ROW File="l13.jpeg" Component_="mobile.exe.config" FileName="L13~1.JPE|l13.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l13.jpeg" SelfReg="false"/>
+    <ROW File="l14.jpeg" Component_="mobile.exe.config" FileName="L14~1.JPE|l14.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l14.jpeg" SelfReg="false"/>
+    <ROW File="l15.jpeg" Component_="mobile.exe.config" FileName="L15~1.JPE|l15.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l15.jpeg" SelfReg="false"/>
+    <ROW File="l16.jpeg" Component_="mobile.exe.config" FileName="L16~1.JPE|l16.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l16.jpeg" SelfReg="false"/>
+    <ROW File="l17.jpeg" Component_="mobile.exe.config" FileName="L17~1.JPE|l17.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l17.jpeg" SelfReg="false"/>
+    <ROW File="l18.jpeg" Component_="mobile.exe.config" FileName="L18~1.JPE|l18.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l18.jpeg" SelfReg="false"/>
+    <ROW File="l19.jpeg" Component_="mobile.exe.config" FileName="L19~1.JPE|l19.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l19.jpeg" SelfReg="false"/>
+    <ROW File="l20.jpeg" Component_="mobile.exe.config" FileName="L20~1.JPE|l20.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l20.jpeg" SelfReg="false"/>
+    <ROW File="l21.jpeg" Component_="mobile.exe.config" FileName="L21~1.JPE|l21.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l21.jpeg" SelfReg="false"/>
+    <ROW File="l22.jpeg" Component_="mobile.exe.config" FileName="L22~1.JPE|l22.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l22.jpeg" SelfReg="false"/>
+    <ROW File="l23.jpeg" Component_="mobile.exe.config" FileName="L23~1.JPE|l23.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l23.jpeg" SelfReg="false"/>
+    <ROW File="l24.jpeg" Component_="mobile.exe.config" FileName="L24~1.JPE|l24.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l24.jpeg" SelfReg="false"/>
+    <ROW File="l25.jpeg" Component_="mobile.exe.config" FileName="L25~1.JPE|l25.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l25.jpeg" SelfReg="false"/>
+    <ROW File="l26.jpeg" Component_="mobile.exe.config" FileName="L26~1.JPE|l26.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l26.jpeg" SelfReg="false"/>
+    <ROW File="l27.jpeg" Component_="mobile.exe.config" FileName="L27~1.JPE|l27.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l27.jpeg" SelfReg="false"/>
+    <ROW File="l28.jpeg" Component_="mobile.exe.config" FileName="L28~1.JPE|l28.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l28.jpeg" SelfReg="false"/>
+    <ROW File="l29.jpeg" Component_="mobile.exe.config" FileName="L29~1.JPE|l29.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l29.jpeg" SelfReg="false"/>
+    <ROW File="l30.jpeg" Component_="mobile.exe.config" FileName="L30~1.JPE|l30.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l30.jpeg" SelfReg="false"/>
+    <ROW File="l31.jpeg" Component_="mobile.exe.config" FileName="L31~1.JPE|l31.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l31.jpeg" SelfReg="false"/>
+    <ROW File="l32.jpeg" Component_="mobile.exe.config" FileName="L32~1.JPE|l32.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l32.jpeg" SelfReg="false"/>
+    <ROW File="l33.jpeg" Component_="mobile.exe.config" FileName="L33~1.JPE|l33.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l33.jpeg" SelfReg="false"/>
+    <ROW File="l34.jpeg" Component_="mobile.exe.config" FileName="L34~1.JPE|l34.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l34.jpeg" SelfReg="false"/>
+    <ROW File="l35.jpeg" Component_="mobile.exe.config" FileName="L35~1.JPE|l35.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l35.jpeg" SelfReg="false"/>
+    <ROW File="l36.jpeg" Component_="mobile.exe.config" FileName="L36~1.JPE|l36.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l36.jpeg" SelfReg="false"/>
+    <ROW File="l37.jpeg" Component_="mobile.exe.config" FileName="L37~1.JPE|l37.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l37.jpeg" SelfReg="false"/>
+    <ROW File="l38.jpeg" Component_="mobile.exe.config" FileName="L38~1.JPE|l38.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l38.jpeg" SelfReg="false"/>
+    <ROW File="l39.jpeg" Component_="mobile.exe.config" FileName="L39~1.JPE|l39.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l39.jpeg" SelfReg="false"/>
+    <ROW File="l41.jpeg" Component_="mobile.exe.config" FileName="L41~1.JPE|l41.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l41.jpeg" SelfReg="false"/>
+    <ROW File="l42.jpeg" Component_="mobile.exe.config" FileName="L42~1.JPE|l42.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l42.jpeg" SelfReg="false"/>
+    <ROW File="l43.jpeg" Component_="mobile.exe.config" FileName="L43~1.JPE|l43.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l43.jpeg" SelfReg="false"/>
+    <ROW File="l44.jpeg" Component_="mobile.exe.config" FileName="L44~1.JPE|l44.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l44.jpeg" SelfReg="false"/>
+    <ROW File="l45.jpeg" Component_="mobile.exe.config" FileName="L45~1.JPE|l45.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l45.jpeg" SelfReg="false"/>
+    <ROW File="l46.jpeg" Component_="mobile.exe.config" FileName="L46~1.JPE|l46.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l46.jpeg" SelfReg="false"/>
+    <ROW File="l47.jpeg" Component_="mobile.exe.config" FileName="L47~1.JPE|l47.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l47.jpeg" SelfReg="false"/>
+    <ROW File="l48.jpeg" Component_="mobile.exe.config" FileName="L48~1.JPE|l48.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l48.jpeg" SelfReg="false"/>
+    <ROW File="l49.jpeg" Component_="mobile.exe.config" FileName="L49~1.JPE|l49.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l49.jpeg" SelfReg="false"/>
+    <ROW File="l50.jpeg" Component_="mobile.exe.config" FileName="L50~1.JPE|l50.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l50.jpeg" SelfReg="false"/>
+    <ROW File="l51.jpeg" Component_="mobile.exe.config" FileName="L51~1.JPE|l51.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l51.jpeg" SelfReg="false"/>
+    <ROW File="l52.jpeg" Component_="mobile.exe.config" FileName="L52~1.JPE|l52.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l52.jpeg" SelfReg="false"/>
+    <ROW File="l53.jpeg" Component_="mobile.exe.config" FileName="L53~1.JPE|l53.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l53.jpeg" SelfReg="false"/>
+    <ROW File="l54.jpeg" Component_="mobile.exe.config" FileName="L54~1.JPE|l54.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l54.jpeg" SelfReg="false"/>
+    <ROW File="l55.jpeg" Component_="mobile.exe.config" FileName="L55~1.JPE|l55.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l55.jpeg" SelfReg="false"/>
+    <ROW File="l56.jpeg" Component_="mobile.exe.config" FileName="L56~1.JPE|l56.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l56.jpeg" SelfReg="false"/>
+    <ROW File="l57.jpeg" Component_="mobile.exe.config" FileName="L57~1.JPE|l57.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l57.jpeg" SelfReg="false"/>
+    <ROW File="l58.jpeg" Component_="mobile.exe.config" FileName="L58~1.JPE|l58.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l58.jpeg" SelfReg="false"/>
+    <ROW File="l59.jpeg" Component_="mobile.exe.config" FileName="L59~1.JPE|l59.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l59.jpeg" SelfReg="false"/>
+    <ROW File="l60.jpeg" Component_="mobile.exe.config" FileName="L60~1.JPE|l60.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l60.jpeg" SelfReg="false"/>
+    <ROW File="l61.jpeg" Component_="mobile.exe.config" FileName="L61~1.JPE|l61.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l61.jpeg" SelfReg="false"/>
+    <ROW File="l62.jpeg" Component_="mobile.exe.config" FileName="L62~1.JPE|l62.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l62.jpeg" SelfReg="false"/>
+    <ROW File="l63.jpeg" Component_="mobile.exe.config" FileName="L63~1.JPE|l63.jpeg" Attributes="0" SourcePath="..\..\mobile\bin\Debug\l63.jpeg" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="Setup Files" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="mobile.exe"/>
+    <ROW Feature_="MainFeature" Component_="System.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="mobile.exe.config"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.CSharp.dll"/>
+    <ROW Feature_="MainFeature" Component_="MySql.Data.dll"/>
+    <ROW Feature_="MainFeature" Component_="MySqlBackup.dll"/>
+    <ROW Feature_="MainFeature" Component_="mscorlib.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Data.DataSetExtensions.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Data.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Deployment.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Drawing.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Management.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Net.Http.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Windows.Forms.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Xml.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Xml.Linq.dll"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="Mobile.exe" SourcePath="..\..\..\..\Mobile.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="mobile.exe" Directory_="SHORTCUTDIR" Name="mobile.exe" Component_="mobile.exe" Target="[#mobile.exe]" Description="mobile.exe" Hotkey="0" Icon_="Mobile.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="mobile.exe_1" Directory_="DesktopFolder" Name="mobile.exe" Component_="mobile.exe" Target="[#mobile.exe]" Description="mobile.exe" Hotkey="0" Icon_="Mobile.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
